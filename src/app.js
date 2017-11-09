@@ -17,7 +17,7 @@ const reducer = combineReducers({
   ...reducers,
   form: formReducer,
   routing: routerReducer
-});
+}); 
 
 export const store = createStore(
   reducer,
